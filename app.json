@@ -2,9 +2,9 @@
 
 {
 
- "name": "TeleBot",
+ "name": "D-USERBOT",
 
- "description": "Userbot created by a Aditya\n\n join https://t.me/TeleBotHelpChat for any problems or support",
+ "description": "Userbot created by Denver",
 
  "logo": "https://telegra.ph/file/f1143e4dd5a4c699e3614.jpg",
 
@@ -22,7 +22,7 @@
 
  ],
 
- "repository": "https://github.com/xditya/TeleBot/",
+ "repository": "https://github.com/D-userbot/D-USERBOT/",
 
  "website": "#TODO",
 
@@ -83,8 +83,8 @@
   },
 
   "GIT_REPO_NAME": {
-
-   "description": "Your repo name Example: xditya/TeleBot, but GITHUB_ACCESS_TOKEN must be setup first.",
+bot
+   "description": "Your repo name Example: Denver-user/D-USERBOT, but GITHUB_ACCESS_TOKEN must be setup first.",
 
    "value": "",
 
