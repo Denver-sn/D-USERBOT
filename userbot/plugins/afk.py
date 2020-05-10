@@ -145,8 +145,8 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__Hi this is an automatic message __ `{total_afk_time}`\nI'm currently unavaible now~~ " + \
-            f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
+        message_to_reply = f"__Hi this is an automatic message I'm afk since __ `{total_afk_time}`\nI'm currently unavaible now~~ " + \
+            f"\n\n__I promise I'll back as soon as possible__\n**REASON**: {reason}" \
             if reason \
             else f"**Hey!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
         msg = await event.reply(message_to_reply)
